@@ -3,6 +3,8 @@ body {
     font-family: var(--font-dm-sans);
 }
 
+
+/* Estilização de barra lateral da página */
 .sidebar {
     position: fixed;
     top: 0;
@@ -167,7 +169,9 @@ body {
     padding: 8px;
     border-radius: 20px;
 }
+/* Fim de barra lateral */
 
+/* Estilização do footer */
 .disclaimer-premium {
     position: fixed;
     bottom: 0;

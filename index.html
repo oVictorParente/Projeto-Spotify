@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css">
 </head>
 <body> 
+
+    <!-- Criação de barra lateral da página -->
     <div class="sidebar">
 
         <nav class="sidebar__navigation">
@@ -64,22 +66,24 @@
                 </button>
             </div>
         </div>
-    </div>
+    </div> <!-- Fim de barra lateral -->
 
     <main>
         <div class="main-container">
+
+                <!-- Parte superior da tela -->
             <nav class="header__navigation">
                 <div class="navigation">
                     <button class="arrow-left">
-                        <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
+                        <img src="./src/assets/icons/small-left.png" alt="Seta esquerda" />
                     </button>
                     <button class="arrow-right">
-                        <img src="./src/assets/icons/small-right.png" alt="Seta direita">
+                        <img src="./src/assets/icons/small-right.png" alt="Seta direita" />
                     </button>
                     </div>
 
                     <div class="header__search">
-                        <img src="./src/assets/icons/search.png" alt="">
+                        <img src="./src/assets/icons/search.png" alt="" />
                         <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
                     </div>
 
@@ -87,11 +91,13 @@
                         <button class="subscribe">Inscreva-se</button>
                         <button class="login">Entrar</button>
                     </div>
-            </nav>
+            </nav> <!-- Fim de parte superior -->
 
             <div class="playlist-container">
                 <div id="result-playlists">
-                    <div class="playlist">
+
+                        <!-- Parte central da página -->
+                    <div class="playlist"> 
                         <h1 id="greeting">Boas vindas</h1>
                         <h2 class="session">Navegar por todas as seções</h2>
                     </div>
@@ -207,8 +213,10 @@
                             </section>
                         </div>
                     </div>
-                </div>
+                </div> <!-- Fim de parte central -->
 
+
+                <!-- Criação de div para interação com JS na aba de pesquisa -->
                 <div id="result-artist" class="hidden">
                     <div class="grid-container">
                         <div class="artist-card" id="">
@@ -232,6 +240,7 @@
         </div>
     </main>
 
+    <!-- Parte inferior da tela -->
     <footer class="disclaimer-premium">
         <div class="text">
             <p class="disclaimer-premium__title">Testar o Premium de graça</p>
